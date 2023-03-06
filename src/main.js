@@ -17,7 +17,9 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 /* add icons to the library */
 library.add(faStar)
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.mount('#app');
 
 
 import "bootstrap/dist/js/bootstrap.js"
