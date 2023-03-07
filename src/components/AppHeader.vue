@@ -26,12 +26,12 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar bg-light">
+  <nav class="navbar bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand">BoolFlix</a>
+        <a class="navbar-brand text-danger">BoolFlix</a>
         <div class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" v-model="store.searchedTerm">
-          <button class="btn btn-outline-success" type="button" @click="sendTerm">Search</button> 
+          <button class="btn btn-outline-danger" type="button" @click="sendTerm">Search</button> 
         </div>
       </div>
     </nav>
