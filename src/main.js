@@ -19,7 +19,7 @@ library.add(faStar)
 
 const app = createApp(App);
 
-app.component("faStar", faStar);
+app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app');
 
 

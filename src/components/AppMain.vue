@@ -35,14 +35,14 @@ export default {
 
 <template>
   <div class="container">
-    <div class="row row-cols-3" v-if="store.listFilms.length">
+    <div class="row row-cols-2 row-cols-md-4" v-if="store.listFilms.length">
       <h2 class="text-white w-100">Movies</h2>
       <MoviesCard v-for="movie in store.listFilms" :movie="movie"/>
         
     </div>
 
 
-    <div class="row row-cols-3" v-if="store.listSeries.length">
+    <div class="row row-cols-2 row-cols-md-4" v-if="store.listSeries.length">
       <h2 class="text-white w-100">TV Series</h2>
       <TVSeriesCard v-for="serie in store.listSeries" :serie="serie"/>
     </div>
